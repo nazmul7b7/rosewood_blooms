@@ -1,0 +1,168 @@
+/* Media queries */
+
+@media (max-width: 1022px) {
+
+  html {
+  font-size: 55%;  
+  }
+
+  header {
+    padding: 2.5rem 2rem;
+  }
+
+  header .navbar a {
+    margin: 0 1rem;
+    letter-spacing: 0.05rem;   
+  }
+
+  section {
+    padding: 2rem;
+  }
+
+  footer {
+    padding: 2rem;
+  }
+
+  .about {
+    background-position: left;
+  }
+
+  .about .content {
+    max-width: 60rem;
+  }
+
+  .review-container {
+    width: 90%;
+  }
+
+  .review-card {
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .review-card .stars,
+  .review-card p,
+  .review-card h4 {
+    font-size: 1.8rem;
+  }
+
+  .featured .product-card {
+    flex:0 0 calc(50% - 1rem);
+  }
+
+  .featured .product-grid{
+    width: 90vw;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  html {
+  font-size: 50%;  
+  }
+
+  header .fa-bars {
+    display: block;
+  }
+
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #eee;
+    border-top: .1rem solid rgba(0, 0, 0, 0.1);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    width: 50%;
+    height: 100vh;
+  }
+
+  header #toggler:checked ~ .navbar {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  header .navbar a {
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background: #fff;
+    border: 1rem solid rgba(0, 0, 0, 0.1);
+    display: block;
+  }
+
+  .home .content h3 {
+    font-size: 5rem;
+  }
+
+  .about .content h3 {
+    font-size: 4rem;
+  }
+
+  .contact {
+    margin-bottom: -15rem;
+  }
+
+  .contact .content {
+  display: flex;
+  flex-direction: column;
+  }
+
+  .review-container {
+    gap: 2rem;
+  }
+
+  .review-card {
+    padding: 1.6rem;
+    gap: 1.6rem;
+  }
+
+  .review-card .stars,
+  .review-card p,
+  .review-card h4 {
+    font-size: 1.6rem;
+  }
+
+  .acc-container {
+    height: 45rem;
+  }
+
+  .featured .product-card {
+    flex:0 0 calc(50% - 2rem);
+  }
+
+  .featured .product-grid{
+    width: 90vw;
+  }
+}
+
+@media (max-width: 475px) {
+
+  html {
+  font-size: 45%;  
+  }
+
+  .review-container {
+    gap: 2rem;
+  }
+
+  .review-card {
+    padding: 1.4rem;
+    gap: 1.4rem;
+  }
+
+  .review-card .stars,
+  .review-card p,
+  .review-card h4 {
+    font-size: 1.4rem;
+  }
+
+  .acc-container {
+    height: 40rem;
+  }
+
+  .featured .product-card {
+    width: 15rem;
+    flex:0 0 80%;
+  }
+  
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rosewood Blooms</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+ 
+  <!-- header section start -->
+
+  <header>
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="index.html" class="logo">ROSEWOOD <span>BLOOMS</span></a>
+
+    <nav class="navbar">
+      <a href="index.html">HOME</a>
+      <a href="shop.html">SHOP</a>
+      <a href="about.html">ABOUT</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+
+    <div class="icons">
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-shopping-cart" id="cartIcon"><span class="item-count"></span></a>
+      <a href="#" class="fas fa-user" id="userIcon"></a>
+
+      <div class="dropdown-menu" id="dropdownMenu">
+        <a href="account.html">Login</a>
+        <a href="account.html">Register</a>
+        <!-- <a href="#">Account</a>
+        <a href="#">Logout</a> -->
+      </div>
+    </div>
+
+  </header>
+
+  <!-- header section end -->
+
+  <!-- cart drawer section start -->
+
+  <div class="cart">
+    <h2 class="cart-title">Your Cart</h2>
+    <div class="cart-content"> 
+      <!-- <div class="cart-box">
+        <img src="images/products/cherry-blossom-style-bouquet.png" alt="" class="cart-img">
+        <div class="cart-detail">
+          <h2 class="cart-product-title">Cherry blossom</h2>
+          <span class="cart-price">$100</span>
+          <div class="cart-quantity">
+            <button id="decrement">-</button>
+            <span class="number">1</span>
+            <button id="increment">+</button>
+          </div>
+        </div>
+        <i class="fa fa-trash cart-remove"></i>
+      </div> -->     
+    </div>
+    <div class="total">
+      <div class="total-title">Total</div>
+      <div class="total-price">$0</div>
+    </div>
+    <button class="btn-buy">Buy Now</button>
+    <i class="fa fa-window-close" id="cart-close"></i>
+  </div>
+
+  <!-- cart drawer section end -->
+
+  <!-- home section start -->
+
+  <section class="home" id="home">
+
+    <div class="content">
+      <h3>Fresh <span>Flowers</span><br>Delivered with Care</h3>
+      <p>
+        Discover beautifully crafted bouquets made for every occasion.
+        From romantic roses to elegant seasonal arrangements.
+      </p>
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+
+  </section>
+
+  <!-- home section end -->
+
+  <!-- featured section start -->
+  
+  <section class="featured">
+    <div class="featured-container">
+      <h1>Featured Flowers</h1>
+      <div id="featured-products"   class="product-grid"></div>
+      <a href="shop.html" class="view-all">View All</a>
+    </div>
+  </section>
+
+  <!-- featured section end -->
+
+  <!-- review section start -->
+
+  <section class="reviews" id="reviews">
+
+    <h1>What Our Customers Say</h1>
+
+    <div class="review-container">
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Absolutely stunning bouquet! The flowers were fresh and beautifully arranged."</p>
+        <h4>— Sarah Ahmed</h4>
+      </div> 
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Delivery was super fast and the packaging was elegant. Highly recommend!"</p>
+        <h4>— James Carter</h4>
+      </div> 
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Ordered for my mom and she loved it. Will definitely order again!"</p>
+        <h4>— John Deo</h4>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- review section end -->
+
+  <!-- footer section start -->
+
+  <footer class="footer">
+
+    <div class="footer-container">
+
+      <div class="footer-col">
+        <h3>Rosewood Blooms</h3>
+        <p>Fresh flowers delivered with elegance and care.</p>
+      </div>
+
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-col">
+        <h3>Customer Service</h3>
+        <a href="#">Delivery Info</a>
+        <a href="#">Returns</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Rosewood Blooms</p>
+    </div>
+
+  </footer>
+
+  <!-- footer section end -->
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
